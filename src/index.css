@@ -3,7 +3,16 @@
 @theme {
   --color-primary: #1F2F8F;
   --color-primary-dark: #14206B;
-  --color-soft-bg: #F8F1F1;
+
+  /* Background โทนตุ่น minimal */
+  --color-soft-bg: #F6F3EF;
+  --color-soft-bg-2: #EFEAE4;
+  --color-soft-card: #FBFAF8;
+
+  /* Text */
   --color-text-main: #1E2A5A;
-  --color-text-muted: #777777;
+  --color-text-muted: #7A7A7A;
+
+  /* Hover */
+  --color-hover-light: #DDE6FF;
 }
