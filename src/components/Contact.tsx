@@ -27,7 +27,7 @@ const Contact = () => {
       id="contact"
       className="scroll-mt-28 px-4 py-12 md:px-10 md:py-16"
     >
-      <div className="mx-auto mb-24 max-w-8xl md:mb-40">
+      <div className="mx-auto  max-w-8xl ">
         {/* Header */}
         <div className="relative mb-8 rounded-[1.5rem] border border-black/5 bg-white/60 p-6 shadow-sm backdrop-blur-xl md:mb-10 md:rounded-none md:border-0 md:bg-transparent md:p-0 md:shadow-none md:backdrop-blur-none">
           <div className="absolute -right-16 -top-16 h-40 w-40 rounded-full bg-primary/10 blur-3xl md:hidden" />

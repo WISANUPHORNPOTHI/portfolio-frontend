@@ -58,7 +58,7 @@ const Navbar = () => {
         </span>
       </button>
 
-      <MobileMenu isOpen={isOpen} menus={menus} />
+      <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} menus={menus} />
     </div>
     </nav >
   );

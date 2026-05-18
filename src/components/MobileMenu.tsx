@@ -6,9 +6,10 @@ type MenuItem = {
 type MobileMenuProps = {
   isOpen: boolean;
   menus: MenuItem[];
+  setIsOpen: (isOpen: boolean) => void;
 };
 
-const MobileMenu = ({ isOpen, menus }: MobileMenuProps) => {
+const MobileMenu = ({ isOpen, menus,setIsOpen }: MobileMenuProps) => {
   return (
     <aside
       className={`fixed right-4 top-24 z-50 w-[260px] origin-top-right rounded-3xl border border-white/20 bg-primary/90 p-4 text-white shadow-2xl backdrop-blur-xl transition-all duration-500 ease-out md:hidden ${
@@ -33,6 +34,7 @@ const MobileMenu = ({ isOpen, menus }: MobileMenuProps) => {
             <a
               href={menu.href}
               className="block rounded-2xl px-5 py-3 text-center text-sm font-semibold tracking-widest text-white transition-all duration-300 ease-out hover:scale-110 hover:bg-white/15 hover:text-[#DDE6FF] hover:shadow-[0_8px_24px_rgba(221,230,255,0.35)] active:scale-95"
+              onClick={setIsOpen ? () => setIsOpen(false) : undefined}
             >
               {menu.label}
             </a>

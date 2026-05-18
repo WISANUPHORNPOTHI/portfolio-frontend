@@ -3,7 +3,7 @@ const Footer = () => {
     <>
       {/* Mobile Footer */}
       <footer className="px-4 pb-6 pt-6 md:hidden">
-        <div className="mx-auto w-full max-w-[390px] rounded-[1.5rem] bg-primary px-4 py-5 text-center text-white shadow-xl">
+        <div className="mx-auto w-full  rounded-[1.5rem] bg-primary px-4 py-5 text-center text-white shadow-xl">
           <p className="text-xs font-semibold tracking-wide">
             © {new Date().getFullYear()} Wisanuphorn Pothito
           </p>

@@ -16,3 +16,7 @@
   /* Hover */
   --color-hover-light: #DDE6FF;
 }
+
+html {
+  scroll-behavior: smooth;
+}
